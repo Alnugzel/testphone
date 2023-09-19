@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;  
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: #252F3D;
+}
+
+.footer p:nth-child(1) {
+    font-size: 12px;
+    line-height: 16.8px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.footer p:nth-child(2) {
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+ }
+
+ .footer p span {
+    width: 13px;
+    height: 13px;
+ }

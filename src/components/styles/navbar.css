@@ -1,0 +1,54 @@
+.navbar {
+    height: 102px;
+    padding: 0px, 0px, 20px, 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+        
+}
+.navbar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252F3D;
+    height: 42px;
+    width: 100%;
+}
+
+.navbar__header button {
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+
+    
+}
+
+.navbar__header p {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: 500;
+    width: 227px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.navbar__logo {
+    display: flex;
+    justify-content: center;   
+}
+
+.container__logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    height: 20px;
+}
+.navbar__logo-antivirus {
+    display: flex;
+    gap: 1em;
+}
