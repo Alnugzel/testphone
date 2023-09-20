@@ -1,17 +1,19 @@
 .article {
   display: flex;
+ 
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 24px;
+  padding: 1.2em;
+  min-width: 384px;
 }
 
 .article__header {
-    width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24px;
 }
 
 .article__title {
@@ -27,3 +29,390 @@
     text-align: center;
     color: #4D5254;
 }
+
+.article__status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.article__status div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  
+}
+
+.article__status div span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #85BF55;
+  color: white;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.article__status div:nth-child(3) span {
+  background-color: #2C7EF8;
+  border: 2px solid #2C7EF8;
+}
+
+.article__status div:nth-child(4) span {
+  color: #2C7EF8;
+  border: 1px solid #2C7EF8;
+  background-color: white;
+}
+
+.article__status div p {
+  font-size: 12px;
+  line-height: 13.2px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.article__status div:nth-child(3) p {
+  font-weight: 700;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.offer h1 {
+  font-size: 24px;
+  line-height: 33.6px;
+  text-align: center;
+  font-weight: 600;
+  color: #000000;
+}
+
+.offer h1 span {
+  color: #2C7EF8;
+}
+
+.product {
+  display: none;
+}
+
+.product img {
+   border-radius: 10px;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.reviews__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+ 
+}
+
+.reviews__info-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: #2C7EF8;
+  border-radius: 10px;
+}
+
+
+.reviews__info-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.reviews__info-title {
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.reviews__info-title p:nth-child(1){
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.reviews__info-title p:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.reviews__info-title p:nth-child(2) span:nth-child(1) {
+  font-size: 10px;
+  line-height: 13.66px;
+  font-weight: 600;
+  color: #969696;
+  text-decoration: line-through;
+}
+
+.reviews__info-title p:nth-child(2) span:nth-child(2) {
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 600;
+  color: #2C7EF8;
+  
+}
+
+.reviews__calification {
+  color: #FFC000;
+}
+
+.stock {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+
+}
+
+.stock div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: #E3EEFF;
+}
+
+.stock div div {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: #2C7EF8;
+}
+
+.stock p {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16.39px;
+  color: #37465A;
+}
+
+.reviews__comment {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  color: #4D5254;
+}
+
+.features {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.features div {
+  display: flex;
+  gap: 12px;
+}
+
+.features div div {
+  color: #2C7EF8;
+  width: 16px;
+  height: 16px;
+}
+
+.features div p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #4D5254;
+}
+
+.features div p span {
+  font-weight: 700;
+}
+
+.percent {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 16px 12px 16px;
+  background-color: #EDF3FD;
+  border-radius: 10px;
+}
+
+.percent__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.percent__circle span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: #2C7EF8;
+  border-radius: 100%;
+  color: #EDF3FD;
+}
+.percent__info {
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.percent__info span {
+  color: #2C7EF8;
+}
+
+.cashout {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cashout__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+ 
+ 
+}
+
+.cashout__button button {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  background-color: #59AE43;
+  padding: 16px 64px 16px 64px;
+  border-radius: 50px;
+  border: none;
+  font-size: 14px;
+  line-height: 19.12px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.cashout__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #CFCFCF;
+  border-radius: 4px;
+  gap: 12px;
+  padding: 8px 16px 8px 16px;
+}
+
+.cashout__info-shipping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 12px;
+  line-height: 16.8px;
+  font-weight: 400;
+  gap: 12px;
+ 
+}
+
+.cashout__info-shipping div:nth-child(1) {
+  position: relative;
+}
+
+
+
+.cashout__separator{
+  border: 1px solid #CFCFCF;
+  width: 90%;
+}
+
+.cashout__payments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  flex-direction: row;
+  width: 100%;
+}
+
+.cashout__payments div {
+  width: 24px;
+  height: 14px;
+}
+
+.cashout__cancel {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.cashout__cancel p {
+  color: #F82C2C;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.39px;
+  text-decoration: underline;
+}
+
+.guarantee {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+.guarantee__img {
+  width: 50%;
+}
+.guarantee__text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #4D5254;
+}
+
+.guarantee__text span {
+  font-weight: 700;
+}
+
+@media (min-width: 768px) { 
+  .offer {
+    flex-direction: row;
+  }
+}
+
+
+
+
+
+

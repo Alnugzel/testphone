@@ -1,12 +1,13 @@
 import React from 'react'
 import "./styles/navbar.css"
+import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
 
 const Navbar = () => {
   return (
     
     <nav className='navbar'>
         <header className='navbar__header'>
-          <button><img src="./vector/prev.png" alt="" /></button> <p> <span><img src="./vector/vector1.png" alt="" /></span> 30-DAY SATISFACTION GUARANTEE</p> <button><img src="./vector/next.png" alt="" /></button>
+          <button> <SlArrowLeft/></button> <p> <span><img src="./vector/vector1.png" alt="" /></span> 30-DAY SATISFACTION GUARANTEE</p> <button><SlArrowRight/></button>
         </header>
         <section className='navbar__logo'>
             <div className='container__logos'>
