@@ -8,6 +8,10 @@ import { AiOutlineArrowRight, AiOutlineLock } from "react-icons/ai";
 const Body = () => {
   return (
     <article className="article">
+
+
+
+
       <header className="article__header">
         <h1 className="article__title">Wait! Your Order In Progress.</h1>
         <p className="article__description">
@@ -36,20 +40,36 @@ const Body = () => {
         </div>
       </section>
 
+
+      <div className="prueba">
+
+     
+      <section>
+      <div className="product">
+        <img src="./product.png" alt="Clarifion" />
+      </div>
+
+      <div className="caja">
+        <div>
+          <div><img src="" alt="" /></div>
+          <p>Ken T.</p>
+        </div>
+        <p>
+        “As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I went to the bedroom in the evening it smelled clean. When I went to bed I felt I could breathe better. Wonderful.”
+        </p>
+      </div>
+      </section>
+      
+
       <section className="offer">
+        
         <h1>
           <span>ONE TIME ONLY</span> Special Price For 6 Extra Clarifion For
           Only <span>$14 Each</span> ($84.00 Total!)
         </h1>
 
-        <div className="product">
-        <img src="./product.png" alt="Clarifion" />
-      </div>
-
-      </section>
-
-     
-      <section className="reviews">
+       
+        <section className="reviews">
         <div className="reviews__info">
           <div className="reviews__info-img">
             <img src="./airionizer.png" alt="" />
@@ -170,6 +190,12 @@ const Body = () => {
     </p>
 
 </section>
+      
+      
+      </section>
+
+      </div>
+     
 
     </article>
   );

@@ -406,9 +406,25 @@
 }
 
 @media (min-width: 768px) { 
-  .offer {
-    flex-direction: row;
+
+
+  .prueba {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding: 24px;
   }
+ 
+  
+  .product {
+    display: flex;
+  }
+  
+  .offer {
+    flex-direction: column;
+  }
+
 }
 
 
